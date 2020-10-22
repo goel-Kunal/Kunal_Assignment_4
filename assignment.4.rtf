@@ -1,0 +1,476 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Calibri;}{\f1\fnil\fcharset0 Comic Sans MS;}}
+{\*\generator Riched20 10.0.18362}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\f0\fs40\lang9 1.\fs22\par
+\f1 #include<iostream>\par
+using namespace std;\par
+\par
+class Pets \par
+\{\par
+public:\par
+\tab void Whattodo() \par
+\tab\{\par
+
+\pard\li1440\sa200\sl276\slmult1 cout << "Eat sleep Repeat" << "\\n";\par
+
+\pard\li720\sa200\sl276\slmult1\}\par
+
+\pard\sa200\sl276\slmult1\};\par
+class Dogs : public Pets\par
+ \{\par
+public:\par
+
+\pard\li720\sa200\sl276\slmult1 void Woff() \par
+\{\par
+
+\pard\li1440\sa200\sl276\slmult1 cout << "Woof! Let's go for a walk Human!!" << "\\n";\par
+
+\pard\li720\sa200\sl276\slmult1\}\par
+
+\pard\sa200\sl276\slmult1\};\par
+int main() \par
+\{\par
+
+\pard\li720\sa200\sl276\slmult1 Dogs Edgar;\par
+Edgar.Woff();\par
+Edgar.Whattodo();\par
+
+\pard\sa200\sl276\slmult1\}\par
+\par
+\fs36 2.\fs22\par
+#include<iostream>\par
+using namespace std;\par
+class Student\par
+ \{\par
+public:\par
+
+\pard\li720\sa200\sl276\slmult1 void Study()\par
+ \{\par
+
+\pard\li1440\sa200\sl276\slmult1 cout << "I study after 2 hours" << "\\n";\par
+
+\pard\li720\sa200\sl276\slmult1\}\par
+
+\pard\sa200\sl276\slmult1\};\par
+class UndergraduateStudent: public Student \par
+\{\par
+public:\par
+
+\pard\li720\sa200\sl276\slmult1 void Btech()\par
+ \{\par
+
+\pard\li1440\sa200\sl276\slmult1 cout << "I am doing Btech from GEU" << "\\n";\par
+
+\pard\li720\sa200\sl276\slmult1\}\par
+
+\pard\sa200\sl276\slmult1\};\par
+class Freshman: public UndergraduateStudent \par
+\{\par
+public:\par
+
+\pard\li720\sa200\sl276\slmult1 void Motivation() \par
+\{\par
+
+\pard\li1440\sa200\sl276\slmult1 cout << "i want to score 10CGPA this sem" << "\\n";\par
+
+\pard\li720\sa200\sl276\slmult1\}\par
+
+\pard\sa200\sl276\slmult1\};\par
+class Junior: public UndergraduateStudent \par
+\{\par
+public:\par
+
+\pard\li720\sa200\sl276\slmult1 void coding() \par
+\{\par
+
+\pard\li1440\sa200\sl276\slmult1 cout << "My program works.. but i don;t know why?" << "\\n";\par
+
+\pard\li720\sa200\sl276\slmult1\}\par
+
+\pard\sa200\sl276\slmult1\};\par
+class Senior: public UndergraduateStudent \par
+\{\par
+public:\par
+
+\pard\li720\sa200\sl276\slmult1 void coding() \par
+\{\par
+
+\pard\li1440\sa200\sl276\slmult1 cout << "What am i doing here?" << "\\n";\par
+
+\pard\li720\sa200\sl276\slmult1\}\par
+
+\pard\sa200\sl276\slmult1\};\par
+class GraduateStudent: public Student\par
+ \{\par
+public:\par
+
+\pard\li720\sa200\sl276\slmult1 void Knowledge()\par
+\{\par
+
+\pard\li1440\sa200\sl276\slmult1 cout << "I want to get more Knowledge" << "\\n";\par
+
+\pard\li720\sa200\sl276\slmult1\}\par
+
+\pard\sa200\sl276\slmult1\};\par
+class MastersStudent : public GraduateStudent \par
+\{\par
+public:\par
+
+\pard\li720\sa200\sl276\slmult1 void Master() \par
+\{\par
+
+\pard\li1440\sa200\sl276\slmult1 cout << "I will master this subject" << "\\n";\par
+
+\pard\li720\sa200\sl276\slmult1\}\par
+
+\pard\sa200\sl276\slmult1\};\par
+class DoctoralStudent : public GraduateStudent \par
+\{\par
+public:\par
+
+\pard\li720\sa200\sl276\slmult1 void Doctoral() \par
+\{\par
+
+\pard\sa200\sl276\slmult1\tab\tab cout << "I will research new things in this subject" << "\\n";\par
+
+\pard\li720\sa200\sl276\slmult1\}\par
+
+\pard\sa200\sl276\slmult1\};\par
+int main()\par
+ \{\par
+
+\pard\li720\sa200\sl276\slmult1 kunal.Btech();\par
+kunal.coding();\par
+kunal.Study();\par
+\par
+DoctoralStudent kunal;\par
+kunal.Doctoral();\par
+kunal.Study();\par
+
+\pard\sa200\sl276\slmult1\}\par
+\f0\par
+\par
+\f1\fs36 3.\par
+\fs24 #include<iostream>\par
+using namespace std;\par
+class Quadrilateral \par
+\{\par
+public:\par
+
+\pard\li720\sa200\sl276\slmult1 void propertyofQuard() \par
+\{\par
+
+\pard\li1440\sa200\sl276\slmult1 cout << "A quadrilateral should be closed shape with 4 sides. All the internal\fs20\par
+\fs24 angles of a quadrilateral sum up to 360\'b0" << "\\n";\par
+
+\pard\li720\sa200\sl276\slmult1\}\par
+
+\pard\sa200\sl276\slmult1\};\par
+class Trapezoid: public Quadrilateral\par
+ \{\par
+public:\par
+
+\pard\li720\sa200\sl276\slmult1 void propertyoTrapezoid() \par
+\{\par
+
+\pard\sa200\sl276\slmult1\tab\tab cout << "A Trapezoid have parallel sides" << "\\n";\par
+
+\pard\li720\sa200\sl276\slmult1\}\par
+
+\pard\sa200\sl276\slmult1\tab int areaTrapezoid(int a, int b, int h)\par
+\tab  \{\par
+
+\pard\li1440\sa200\sl276\slmult1 return (a + b) * h / 2;\par
+
+\pard\li720\sa200\sl276\slmult1\}\par
+
+\pard\sa200\sl276\slmult1\tab int perimeterTrapezoid(int s1, int s2, int s3, int s4)\par
+
+\pard\li720\sa200\sl276\slmult1\{\par
+
+\pard\li1440\sa200\sl276\slmult1 return s1 + s2 + s3 + s4;\par
+
+\pard\li720\sa200\sl276\slmult1\}\par
+
+\pard\sa200\sl276\slmult1\};\par
+class Paralleologram : public Trapezoid \par
+\{\par
+public:\par
+
+\pard\li720\sa200\sl276\slmult1 void propertyofParalleogram() \par
+\{\par
+
+\pard\li1440\sa200\sl276\slmult1 cout << "A paralleologram have pair of parallel and equal sides" << "\\n";\par
+
+\pard\li720\sa200\sl276\slmult1\}\par
+int areaPalleogram(int base, int height)\par
+\{\par
+
+\pard\li1440\sa200\sl276\slmult1 return base * height;\par
+
+\pard\li720\sa200\sl276\slmult1\}\par
+int perimeterPalleogram(int a, int b)\par
+\{\par
+
+\pard\li1440\sa200\sl276\slmult1 return 2 * (a + b);\par
+
+\pard\li720\sa200\sl276\slmult1\}\par
+
+\pard\sa200\sl276\slmult1\};\par
+class Rectangle : public Paralleologram \par
+\{\par
+public:\par
+
+\pard\li720\sa200\sl276\slmult1 void propertyofRectangle()\par
+ \{\par
+
+\pard\li1440\sa200\sl276\slmult1 cout << "It have a pair of parallel and equal sides and all angles are of 90deg."\par
+<< "\\n";\par
+
+\pard\li720\sa200\sl276\slmult1\}\par
+int areaRectangle(int a, int b)\par
+\{\par
+
+\pard\li1440\sa200\sl276\slmult1 return a * b;\par
+
+\pard\li720\sa200\sl276\slmult1\}\par
+int perimeterRectangle(int a, int b)\par
+\{\par
+
+\pard\li1440\sa200\sl276\slmult1 return 2 * (a + b);\par
+
+\pard\li720\sa200\sl276\slmult1\}\par
+
+\pard\sa200\sl276\slmult1\};\par
+class Square : public Rectangle\par
+ \{\par
+public:\par
+
+\pard\li720\sa200\sl276\slmult1 void propertyofSquare() \par
+\{\par
+
+\pard\li1440\sa200\sl276\slmult1 cout << "All sides of Square are equal and all angles of 90 deg" << "\\n";\par
+
+\pard\li720\sa200\sl276\slmult1\}\par
+int areaSquare(int s) \par
+\{\par
+
+\pard\li1440\sa200\sl276\slmult1 return s * s;\par
+
+\pard\li720\sa200\sl276\slmult1\}\par
+int perimeterSquare(int s)\par
+ \{\par
+
+\pard\li1440\sa200\sl276\slmult1 return 4 * s;\par
+
+\pard\sa200\sl276\slmult1\tab\}\par
+\};\par
+int main() \par
+\{\par
+
+\pard\li720\sa200\sl276\slmult1 Square cool;\par
+cool.propertyofQuard();\par
+cout << "area using Square with side 5 " << cool.areaSquare(5) << "\\n";\par
+cout << "perimeter " << cool.perimeterSquare(5) << "\\n";\par
+cout << "finding area of same Square using Rectangle's formula " <<\par
+
+\pard\sa200\sl276\slmult1 cool.areaRectangle(5, 5) << "\\n";\par
+\tab cout << "finding area of same Square using Paralleologram 's formula " <<\par
+cool.areaPalleogram(5, 5) << "\\n";\par
+
+\pard\li720\sa200\sl276\slmult1 cout << "finding area of same Square using Trapezoid 's formula " <<\par
+
+\pard\sa200\sl276\slmult1 cool.areaTrapezoid(5, 5, 5) << "\\n";\par
+
+\pard\li720\sa200\sl276\slmult1 cout << "thus the hierarchy is proved";\par
+
+\pard\sa200\sl276\slmult1\}\par
+\fs36 4.\f0\fs32\par
+\f1\fs24 #include<iostream>\par
+using namespace std;\par
+class shape \par
+\{\par
+public:\par
+
+\pard\li720\sa200\sl276\slmult1 void propertiesOfshape() \par
+\{\par
+
+\pard\sa200\sl276\slmult1\tab\tab cout << "A shape is the form of an object or its external \tab\tab\tab\tab boundary, outline, or external surface, as opposed to other \tab\tab\tab properties such as color, texture or material" << "\\n";\par
+
+\pard\li720\sa200\sl276\slmult1\}\par
+
+\pard\sa200\sl276\slmult1\};\par
+class TwoDshape : public shape \par
+\{\par
+public:\par
+
+\pard\li720\sa200\sl276\slmult1 void propertiesof2d()\par
+ \{\par
+
+\pard\sa200\sl276\slmult1\tab\tab cout << "Two D shape just have Length and Breath" << "\\n";\par
+
+\pard\li720\sa200\sl276\slmult1\}\par
+
+\pard\sa200\sl276\slmult1\};\par
+class Square : public TwoDshape \par
+\{\par
+public:\par
+
+\pard\li720\sa200\sl276\slmult1 int calculateArea(int s) \par
+\{\par
+
+\pard\sa200\sl276\slmult1\tab\tab return s * s;\par
+
+\pard\li720\sa200\sl276\slmult1\}\par
+
+\pard\sa200\sl276\slmult1\};\par
+class Rectangle : public TwoDshape \par
+\{\par
+public:\par
+
+\pard\li720\sa200\sl276\slmult1 int calculateArea(int a, int b) \par
+\{\par
+
+\pard\sa200\sl276\slmult1\tab\tab return a * b;\par
+
+\pard\li720\sa200\sl276\slmult1\}\par
+
+\pard\sa200\sl276\slmult1\};\par
+class ThreeDshape: public shape \par
+\{\par
+public:\par
+\tab void propertiesof3d() \par
+\tab\{\par
+
+\pard\li1440\sa200\sl276\slmult1 cout << "a 3-d shape has Length ,Breath and height" << "\\n";\par
+
+\pard\li720\sa200\sl276\slmult1\}\par
+
+\pard\sa200\sl276\slmult1\};\par
+class Sphere : public ThreeDshape \par
+\{\par
+public:\par
+\tab int areaofSpehere(int radius) \par
+\tab\{\par
+
+\pard\li1440\sa200\sl276\slmult1 return 4 / 3 * 3.17 * radius * radius * radius;\par
+
+\pard\li720\sa200\sl276\slmult1\}\par
+
+\pard\sa200\sl276\slmult1\};\par
+int main() \par
+\{\par
+\tab Sphere Ball;\par
+\tab cout << Ball.areaofSpehere(5) << "\\n";\par
+\tab Square Something;\par
+\tab cout << Something.calculateArea(5) << "\\n";\par
+\}\par
+\fs44 5.\par
+\fs24 #include <iostream>\par
+using namespace std;\par
+class base\par
+\{\par
+public:\par
+
+\pard\li720\sa200\sl276\slmult1 int x;\par
+
+\pard\sa200\sl276\slmult1\};\par
+class num1: public base\par
+\{\par
+public:\par
+
+\pard\li720\sa200\sl276\slmult1 num1() //constructor to initialize x in base class num1\par
+\{\par
+
+\pard\li1440\sa200\sl276\slmult1 x = 10;\par
+
+\pard\li720\sa200\sl276\slmult1\}\par
+
+\pard\sa200\sl276\slmult1\};\par
+class num2\par
+\{\par
+public:\par
+\tab int y;\par
+
+\pard\li720\sa200\sl276\slmult1 num2() //constructor to initialize num2\par
+\{\par
+
+\pard\li1440\sa200\sl276\slmult1 y = 4;\par
+
+\pard\li720\sa200\sl276\slmult1\}\par
+
+\pard\sa200\sl276\slmult1\};\par
+class num3: public num1, public num2 //num3 is derived from class num1 and class num2\par
+\{\par
+public:\par
+
+\pard\li720\sa200\sl276\slmult1 void sum()\par
+\{\par
+
+\pard\li1440\sa200\sl276\slmult1 cout << "Sum= " << x + y;\par
+
+\pard\li720\sa200\sl276\slmult1\}\par
+
+\pard\sa200\sl276\slmult1\};\par
+int main()\par
+\{\par
+\tab num3 obj 1;\par
+\tab obj1.sum();\par
+
+\pard\li720\sa200\sl276\slmult1 return 0;\par
+
+\pard\sa200\sl276\slmult1\}\par
+\f0\fs22\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+}
+ 
